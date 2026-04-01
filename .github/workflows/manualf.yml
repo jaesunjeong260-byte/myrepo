@@ -1,0 +1,16 @@
+name: Manual1
+
+on:
+  workflow_dispatch:            # 수동 실행 이벤트
+    inputs:
+      greeting:                 # 입력 파라미터명
+        type: string
+        default: World          # 기본값
+        required: true          # 필수 여부
+        description: A cheerful World
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, ${{ github.event.inputs.greeting }}"

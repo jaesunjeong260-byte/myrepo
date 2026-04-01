@@ -1,0 +1,14 @@
+{
+  "changelists": [
+    {
+      "name": "Default",
+      "files": [
+        "cd",
+        "gh",
+        ".github/workflows/manualf1.yml",
+        ".vscode/changelists.json"
+      ]
+    }
+  ],
+  "active": "Default"
+}
