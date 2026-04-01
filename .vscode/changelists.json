@@ -6,9 +6,9 @@
         ".github/workflows/script.py",
         ".llm-guardrail/logs.json",
         ".vscode/changelists.json",
-        ".github/workflows/script_a1.py",
+        ".github/workflows/script_a2.py",
         ".github/workflows/schedule.yml",
-        ".github/workflows/schedul_a1.yml"
+        ".github/workflows/schedule_a2.yml"
       ]
     }
   ],
