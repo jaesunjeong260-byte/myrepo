@@ -3,11 +3,12 @@
     {
       "name": "Default",
       "files": [
-        ".vscode/changelists.json",
+        ".github/workflows/schedulet1.yml",
         ".github/workflows/script.py",
         ".llm-guardrail/logs.json",
-        ".github/workflows/schedule.yml",
-        ".github/workflows/schedulet1.yml"
+        ".vscode/changelists.json",
+        ".github/workflows/schedule_t1.yml",
+        ".github/workflows/script_t1.py"
       ]
     }
   ],
