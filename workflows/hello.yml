@@ -1,0 +1,10 @@
+GitHub Workflow - YAML GitHub Workflow (github-workflow.json)
+name: Hello                                          # 워크 플로명
+on: push                                             # 워크프로가 실행된 이벤트(여기서는 push 이벤트)
+jobs                                                 # 작업(잡) 저으이
+  hello:                                             # 잡 ID
+   runs-on:: ubuntu-latest                           # 잡이 실행될 환경)여기서는 최신 우분투) - 러너
+   steps:                                            # 잡이 실행할 단계들(steps) 정의
+    - run: echo "Hello, World!"                      # 첫 번째 단계: "Hello, World!" 출력(쉘 명령 실행)
+    - uses: actions/checkout@v4                      # 두 번째 단계: actions/checkout 액션을 사용하여 체크아웃
+    
