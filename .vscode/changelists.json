@@ -3,10 +3,11 @@
     {
       "name": "Default",
       "files": [
-        "cd",
-        "gh",
-        ".github/workflows/manualf1.yml",
-        ".vscode/changelists.json"
+        ".vscode/changelists.json",
+        ".github/workflows/script.py",
+        ".llm-guardrail/logs.json",
+        ".github/workflows/schedule.yml",
+        ".github/workflows/schedulet1.yml"
       ]
     }
   ],
